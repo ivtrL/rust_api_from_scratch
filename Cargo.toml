@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 tokio = { version = "*", features = ["full"] }
 http-libs = { path = "./src/http-libs" }
+serde = { version = "*", features = ["derive"] }
+serde_json = "*"
